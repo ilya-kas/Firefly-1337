@@ -2,8 +2,10 @@ package spring.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
+import javax.servlet.Filter;
+
 /**
- * вместо web.txt
+ * вместо web.xml
  */
 public class DispatcherServletInializer extends AbstractAnnotationConfigDispatcherServletInitializer {
     @Override
@@ -19,5 +21,10 @@ public class DispatcherServletInializer extends AbstractAnnotationConfigDispatch
     @Override
     protected String[] getServletMappings() {
         return new String[]{"/"};
+    }
+
+    @Override
+    protected Filter[] getServletFilters() {
+        return new Filter[]{new CharsetFilter()};
     }
 }
