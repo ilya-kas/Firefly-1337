@@ -5,6 +5,6 @@
     <title>problem</title>
 </head>
 <body>
-    <a th:href="/first/problem?x=${next}" th:text="${number}"></a>
+    <a th:href="@{/first/problem?x={y}(y=${next})}" th:text="${number}"></a>
 </body>
 </html>
