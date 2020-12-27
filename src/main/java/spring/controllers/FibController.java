@@ -36,7 +36,8 @@ public class FibController {
             case 1:
             case 2:
             case 3:model.addAttribute("number", x);break;
-            case 5:model.addAttribute("number", "И куда теперь?");break;
+            //case 5:model.addAttribute("number", "И куда теперь?");break;
+            case 5:model.addAttribute("number", "What to do now?");break;
         }
         return "first/problem";
     }
