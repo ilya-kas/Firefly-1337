@@ -86,7 +86,7 @@
           <artifactId>heroku-maven-plugin</artifactId>
           <version>3.0.3</version>
           <configuration>
-            <appName>cricket-riddle</appName>
+            <appName>firefly-1337</appName>
           </configuration>
         </plugin>
         <plugin>
