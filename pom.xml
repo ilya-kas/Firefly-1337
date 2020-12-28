@@ -5,11 +5,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.example</groupId>
-  <artifactId>Cricket-riddle</artifactId>
+  <artifactId>Firefly-1337</artifactId>
   <version>1.0</version>
   <packaging>war</packaging>
 
-  <name>cricket-riddle</name>
+  <name>firefly-1337</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -78,7 +78,7 @@
   </dependencies>
 
   <build>
-    <finalName>cricket-riddle</finalName>
+    <finalName>firefly-1337</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>
