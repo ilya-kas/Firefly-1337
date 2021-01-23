@@ -10,22 +10,25 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * Загадка с последовательностью Фиббоначи
+ */
 @Controller
-@RequestMapping("/first")
+@RequestMapping("/sergeant-of-the-guard-15")
 public class FibController {
     private final Set<Integer> numbers = new HashSet<>(Arrays.asList(1,2,3,5));
 
     @GetMapping("/hello")
     public String firstPage(){
-        return "first/hello";
+        return "sergeant-of-the-guard-15/hello";
     }
 
     @GetMapping("/problem")
     public String taskPage(@RequestParam(value = "x") int x, Model model){
         if (x==8)
-            return "first/next";
+            return "sergeant-of-the-guard-15/next";
         if (!numbers.contains(x)){
-            return "first/error";
+            return "sergeant-of-the-guard-15/error";
         }
         switch (x){
             case 1:model.addAttribute("next",2);break;
@@ -39,6 +42,6 @@ public class FibController {
             //case 5:model.addAttribute("number", "И куда теперь?");break;
             case 5:model.addAttribute("number", "What to do now?");break;
         }
-        return "first/problem";
+        return "sergeant-of-the-guard-15/problem";
     }
 }
