@@ -18,7 +18,7 @@ public class ImagesController {
     @GetMapping("/page42")
     public String secondPage(){
         return "leader(like-in-camps)-42/page42";
-    } //открыть картинку как txt
+    } //прочитать комментарий
 
     @GetMapping("/page3")
     public String thirdPage(){
