@@ -1,0 +1,78 @@
+.Back{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url(background.jpg) no-repeat;
+    background-size: 100vw 100vh;
+}
+
+.Text{
+    color: white;
+    text-shadow: black 0 0 10px;
+    padding-top: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.Problem{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url(map1.jpg) no-repeat;
+    background-size: 100vw 100vh;
+    color: white;
+}
+
+.Problem a{
+    position: absolute;
+    margin-left: 50vw;
+    margin-top: 42vh;
+    font-size: 60pt;
+}
+
+.Problem p{
+    position: absolute;
+    margin-left: 28vw;
+    margin-top: 42vh;
+    font-size: 50pt;
+    color: black;
+}
+
+.Error{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url(error.png) no-repeat;
+    background-size: 100vw 100vh;
+}
+
+.Error p{
+    margin: 0;
+    color: white;
+    padding-top: 75vh;
+    padding-left: 35vw;
+    font-size: 26pt;
+}
+
+.NextBack{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url(solved-map.jpg) no-repeat;
+    background-size: 100vw 100vh;
+}
+
+.NextBack p{
+    position: absolute;
+    margin-left: 10vw;
+    margin-top: 40vh;
+    margin-right: 10vw;
+    font-size: 25pt;
+    color: white;
+    text-shadow: black 0 0 10px;
+}
+
+a{
+    color: cyan;
+    font-size: larger;
+}

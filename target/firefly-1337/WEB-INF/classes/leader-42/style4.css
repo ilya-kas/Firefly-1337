@@ -1,0 +1,21 @@
+.night{
+    padding: 0;
+    margin-left: 20vw;
+    margin-top: 10vh;
+    resize: both;
+    width: 60vw;
+}
+
+.beetle{
+    padding: 0;
+    margin-left: 20vw;
+    margin-top: 10vh;
+    resize: both;
+    width: 60vw;
+}
+
+body{
+    margin:0;
+    height: 100vh;
+    size: 100vw 100vh;
+}
