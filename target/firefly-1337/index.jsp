@@ -1,5 +1,5 @@
 <html>
 <body>
-<a href="/sergeant-of-the-guard-15/hello">Start</a>
+<a href="${pageContext.request.contextPath}/sergeant-of-the-guard-15/hello">Start</a>
 </body>
 </html>

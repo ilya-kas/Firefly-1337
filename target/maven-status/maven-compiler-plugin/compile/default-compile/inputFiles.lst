@@ -1,6 +1,7 @@
-D:\Projects\Firefly-1337\src\main\java\spring\controllers\ThirdController.java
-D:\Projects\Firefly-1337\src\main\java\spring\config\CharsetFilter.java
-D:\Projects\Firefly-1337\src\main\java\spring\config\DispatcherServletInializer.java
-D:\Projects\Firefly-1337\src\main\java\spring\config\Config.java
-D:\Projects\Firefly-1337\src\main\java\spring\controllers\SecondController.java
-D:\Projects\Firefly-1337\src\main\java\spring\controllers\FibController.java
+/home/doctor/Projects/Проектики/Firefly-1337/src/main/java/spring/config/Config.java
+/home/doctor/Projects/Проектики/Firefly-1337/src/main/java/spring/controllers/TextController.java
+/home/doctor/Projects/Проектики/Firefly-1337/src/main/java/spring/controllers/FibController.java
+/home/doctor/Projects/Проектики/Firefly-1337/src/main/java/spring/controllers/ImagesController.java
+/home/doctor/Projects/Проектики/Firefly-1337/src/main/java/spring/controllers/MazesController.java
+/home/doctor/Projects/Проектики/Firefly-1337/src/main/java/spring/config/DispatcherServletInializer.java
+/home/doctor/Projects/Проектики/Firefly-1337/src/main/java/spring/config/CharsetFilter.java
