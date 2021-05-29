@@ -39,8 +39,8 @@ public class FibController {
             case 1:
             case 2:
             case 3:model.addAttribute("number", x);break;
-            //case 5:model.addAttribute("number", "И куда теперь?");break;
-            case 5:model.addAttribute("number", "What to do now?");break;
+            case 5:model.addAttribute("number", "");
+                   model.addAttribute("text", "What are you going to do?");break;
         }
         return "sergeant-of-the-guard-15/problem";
     }
