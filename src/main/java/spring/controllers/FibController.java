@@ -40,7 +40,7 @@ public class FibController {
             case 2:
             case 3:model.addAttribute("number", x);break;
             case 5:model.addAttribute("number", "");
-                   model.addAttribute("text", "What are you going to do?");break;
+                   model.addAttribute("text", "И куда теперь?");break;
         }
         return "sergeant-of-the-guard-15/problem";
     }

@@ -22,9 +22,4 @@ public class DispatcherServletInializer extends AbstractAnnotationConfigDispatch
     protected String[] getServletMappings() {
         return new String[]{"/"};
     }
-
-    @Override
-    protected Filter[] getServletFilters() {
-        return new Filter[]{new CharsetFilter()};
-    }
 }

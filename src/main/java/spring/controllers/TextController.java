@@ -17,5 +17,10 @@ public class TextController {
     public String qrCode(){
         return "duel-33/lorem-ipsum";
     } //кнопочный телефон
+
+    @GetMapping("/last")
+    public String last(){
+        return "duel-33/last";
+    } //кнопочный телефон
 }
 

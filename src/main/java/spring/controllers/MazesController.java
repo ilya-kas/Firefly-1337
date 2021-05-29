@@ -15,7 +15,7 @@ public class MazesController {
 
     @GetMapping("/code")
     public String qrCode(){
-        return "fortress-9/maze";
+        return "fortress-9/code";
     } //qr-код с инверсией цветов
 }
 
