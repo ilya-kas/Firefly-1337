@@ -5,7 +5,7 @@ import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatche
 import javax.servlet.Filter;
 
 /**
- * вместо web.xml
+ * instead of web.xml
  */
 public class DispatcherServletInializer extends AbstractAnnotationConfigDispatcherServletInitializer {
     @Override

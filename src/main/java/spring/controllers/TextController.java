@@ -11,16 +11,16 @@ public class TextController {
     @GetMapping("/text")
     public String mazePage(){
         return "duel-33/text";
-    } //русский в английской расскладке
+    } //russian in english keyboard
 
     @GetMapping("/lorem-ipsum")
     public String qrCode(){
         return "duel-33/lorem-ipsum";
-    } //кнопочный телефон
+    } //old telephones
 
     @GetMapping("/last")
     public String last(){
         return "duel-33/last";
-    } //кнопочный телефон
+    } //old telephones
 }
 

@@ -11,6 +11,6 @@ public class FinalController {
     @GetMapping("/final")
     public String lastPage(){
         return "love-13/final";
-    } //русский в английской расскладке
+    } //russian text in english keyboard riddle
 }
 

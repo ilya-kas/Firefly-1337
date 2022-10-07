@@ -11,11 +11,11 @@ public class MazesController {
     @GetMapping("/maze")
     public String mazePage(){
         return "fortress-9/maze";
-    } //лабиринт
+    } //maze
 
     @GetMapping("/code")
     public String qrCode(){
         return "fortress-9/code";
-    } //qr-код с инверсией цветов
+    } //qr-code with color inversion
 }
 

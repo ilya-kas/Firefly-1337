@@ -11,7 +11,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * Загадка с последовательностью Фиббоначи
+ * Fibonacci riddle
  */
 @Controller
 @RequestMapping("/sergeant-of-the-guard-15")

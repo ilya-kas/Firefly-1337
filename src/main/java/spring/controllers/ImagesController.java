@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
- * загадки с картинками
+ * images riddles
  */
 @Controller
 @RequestMapping("/leader(like-in-camps)-42")
@@ -13,15 +13,15 @@ public class ImagesController {
     @GetMapping("/page")
     public String firstPage(){
         return "leader(like-in-camps)-42/page";
-    } //осветлить картинку
+    } //light up a pic
 
     @GetMapping("/page42")
     public String secondPage(){
         return "leader(like-in-camps)-42/page42";
-    } //прочитать комментарий
+    } //read a comment
 
     @GetMapping("/page3")
     public String thirdPage(){
         return "leader(like-in-camps)-42/page3";
-    } //картинка большого расширения
+    } //big resolution pic
 }
